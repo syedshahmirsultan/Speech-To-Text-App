@@ -72,7 +72,7 @@ export default function MicrophoneComponent() {
     <div className="flex items-center justify-center h-screen w-full">
       <div className="w-full">
         {(isRecording || transcript) && (
-          <div className="w-full m-4 md:m-0 md:w-1/4 m-auto rounded-md border p-4 bg-white">
+          <div className="w-full m-4  md:w-1/4 m-auto rounded-md border p-4 bg-white">
             <div className="flex-1 flex w-full justify-between">
               <div className="space-y-1">
                 <p className="text-sm font-medium leading-none">
